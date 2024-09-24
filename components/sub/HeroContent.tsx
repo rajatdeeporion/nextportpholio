@@ -25,7 +25,7 @@ const HeroContent = () => {
                 </motion.div>
 
                 <motion.div
-                    variants={slideInFromLeft(0.5)}
+                    variants={slideInFromLeft(0.1)}
                     className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w--[600px] w-auto h-auto'
                 >
                     <span>
@@ -40,11 +40,11 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >    IT experience with 6 years in Fullstack development with proven
-                ability  to  design  and  develop  JavaScript-based  or  mobile
-                environments. Strong knowledge of jQuery, Node.JS, HTML, CSS,
-                and Bootstrap. Experienced in all stages of interface component
-                design, from conception to final testing and deployment of web-
-                responsive applications
+                    ability  to  design  and  develop  JavaScript-based  or  mobile
+                    environments. Strong knowledge of jQuery, React.js, Next.js, Node.JS, HTML, CSS,
+                    and Bootstrap. Experienced in all stages of interface component
+                    design, from conception to final testing and deployment of web-
+                    responsive applications
                     {/* I&apos;m a Full Stack Software Engineer with experience in Website.
                     Mobile, and Software development. Check out my projects and skills. */}
                 </motion.p>
@@ -52,7 +52,11 @@ const HeroContent = () => {
                     variants={slideInFromLeft(1)}
                     className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
                 >
-                    Learn More!
+                    {/* Learn More! */}
+                    <a href='/Love_Khadoliya.pdf' target='_blank' rel='noopener noreferrer'>
+                        Learn More!
+                    </a>
+
                 </motion.a>
             </div>
 

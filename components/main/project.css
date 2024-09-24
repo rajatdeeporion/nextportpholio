@@ -1,0 +1,24 @@
+/* custom-scrollbar.css */
+
+/* Width */
+.scrollbar::-webkit-scrollbar {
+    width: 1px; /* Change to desired width */
+    height: 5px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+    background: #421852;
+    border-radius: 5px;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #16063a;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #45209f;
+}
