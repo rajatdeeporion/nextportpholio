@@ -14,7 +14,7 @@ const Projects = () => {
             >
                 <ProjectCard
                     src='/ipd.jpg'
-                    title='Prime Global'
+                    title='IPDGROUP'
                     description='PD Group is a leader in delivering innovative solutions across various sectors. Their portfolio features key projects that emphasize sustainability and collaboration, showcasing their expertise in [specific industries]. Committed to excellence, IPD Group consistently achieves outstanding results, positioning itself as a trusted partner for clients seeking transformative solutions.'
                     tech={["Nodejs",
                         "Reactjs",
@@ -34,7 +34,7 @@ const Projects = () => {
                 />
                 <ProjectCard
                     src='/runr.jpg'
-                    title='Prime Global'
+                    title='runr.co.uk'
                     description='Runr is a dynamic company focused on delivering cutting-edge solutions for runners. They offer innovative products and services that enhance the running experience and promote a healthy lifestyle.'
                     tech={["Reactjs",
                         "Redux",
@@ -52,7 +52,7 @@ const Projects = () => {
                 />
                 <ProjectCard
                     src='/gwp.jpg'
-                    title='Prime Global'
+                    title='GREATWORKPERKS'
                     description='Great Work Perks offers unique employee benefits and discounts, helping companies enhance workplace culture and employee satisfaction through customizable perks tailored to individual needs.'
                     tech={[
                         "HTML/HTML5", "XML", "CSS/CSS3", "SASS", "Material UI",
@@ -68,7 +68,8 @@ const Projects = () => {
                     src='/pone.jpg'
                     title='Prime Global'
                     description='PrimeGlobal is a global network of independent accounting and consulting firms offering audit, tax, advisory, and consulting services.'
-                    tech={['Node.js', 'html', 'Next.js', 'css', 'Express']}
+                    tech={['Node.js', 'html', 'Next.js', 'css', 'Express','MongoDB',
+  'Mongoose','JavaScript (ES6+)','Testing (Jest, Mocha)',]}
                     link='https://www.primeglobal.net/'
 
                 />
@@ -78,7 +79,8 @@ const Projects = () => {
                     description='Blok Sports is a peer-to-peer sports betting platform using blockchain technology to offer secure, direct betting with better odds and no middleman​(
 GamblingNews
 ).'
-                    tech={['Node.js', 'html', 'Next.js', 'css', 'Javascript']}
+                    tech={['Node.js', 'html', 'Next.js', 'css', 'Javascript','TypeScript',
+  'GraphQL','Testing (Jest, Mocha)',]}
                     link='https://bloksports.bet/'
                 />
                 <ProjectCard
