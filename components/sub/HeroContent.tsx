@@ -41,7 +41,7 @@ const HeroContent = () => {
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >    IT experience with 6 years in Fullstack development with proven
                     ability  to  design  and  develop  JavaScript-based  or  mobile
-                    environments. Strong knowledge of jQuery, React.js, Next.js, Node.JS, HTML, CSS,
+                    environments. Strong knowledge of Shopify, jQuery, React.js, Next.js, Node.JS, HTML, CSS,
                     and Bootstrap. Experienced in all stages of interface component
                     design, from conception to final testing and deployment of web-
                     responsive applications

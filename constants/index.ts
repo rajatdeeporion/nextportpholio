@@ -240,6 +240,7 @@ export const Full_stack = [
         width: 50,
         height: 50,
     },
+    
 
 ];
 
@@ -251,6 +252,12 @@ export const Other_skill = [
         Image: "/go.png",
         width: 60,
         height: 60,
+    },
+    {
+        skill_name: "Shopify",
+        Image: "/shopify.png",
+        width: 70,
+        height: 70,
     },
 ];
 
